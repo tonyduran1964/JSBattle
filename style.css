@@ -1,13 +1,13 @@
 table {
-    border-collapse: collapse;
-    border: 5px solid black;
-    width: 100%;
+  border-collapse: collapse;
+  border: 5px solid black;
+  width: 100%;
 }
 
 td {
-    width: 33%;
-    height: 2em;
-    border: 1px solid #ccc;
+  width: 33%;
+  height: 2em;
+  border: 1px solid #ccc;
 }
 
 html, body {
@@ -45,25 +45,20 @@ span {
 
 .btn {
   border-radius: 18px;
-
   position: relative;
   background:cornsilk;
-
-
   margin: 0 3px;
-  background: darken(#48453C,3%);
   height: calc(100% + 12px);
   content: '';
   top: 12px;
   left: 0;
   right: 0;
   bottom: -10px;
- 
 }
 
 .btn:active {
   cursor: pointer;
-    bottom: -2px;
+  bottom: -2px;
 }
 
 .btn:focus {
@@ -72,7 +67,7 @@ span {
 
 .btn:hover {
   cursor: pointer;
-    bottom: -6px;
+  bottom: -6px;
 }
 
 
