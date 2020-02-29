@@ -1,0 +1,80 @@
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 100%;
+}
+
+td {
+    width: 33%;
+    height: 2em;
+    border: 1px solid #ccc;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #615D51;
+}
+
+.wrap {
+  margin: auto;
+}
+
+span {
+  transition: all .2s ease-out;
+  display: inline-block;
+  float: none ;
+  position: relative;
+  margin: 0;
+  padding: 16px 24px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  color: #48453C;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 1px 1px 0 rgba(255,255,255,1);
+  background: 
+    radial-gradient(8px 60% at 4px 50%, rgba(255,255,255,.7) 0%, transparent 70%),
+    radial-gradient(50% 6px at 50% 4px, rgba(255,255,255,.9) 0%, transparent 70%);
+}
+
+.btn {
+  border-radius: 18px;
+
+  position: relative;
+  background:cornsilk;
+
+
+  margin: 0 3px;
+  background: darken(#48453C,3%);
+  height: calc(100% + 12px);
+  content: '';
+  top: 12px;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+ 
+}
+
+.btn:active {
+  cursor: pointer;
+    bottom: -2px;
+}
+
+.btn:focus {
+  outline: none; 
+}
+
+.btn:hover {
+  cursor: pointer;
+    bottom: -6px;
+}
+
+
+
+  
